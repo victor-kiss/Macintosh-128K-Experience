@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-retro: var(--font-retro), monospace;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-retro);
+    font-weight: 600; 
+    line-break: auto;
+  }
+
+  body {
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+}
