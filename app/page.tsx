@@ -316,8 +316,9 @@ export default function Home() {
                     </div>
 
                             {/*form */}
-                             <motion.form initial={{ opacity: 0, y: -30 }}
-                            whileInView={{ opacity: 1, y: 0 }} className=" bg-[#202020] min-h-80 w-90 sm:min-w-2xl z-10 border border-gray-600 flex flex-col gap-4 shadow-lg shadow-gray-500 ">
+                             <motion.form initial={{ opacity: 0, y: -40 }}
+                            whileInView={{ opacity: 1, y: 0 }} 
+                            transition={{duration:300,ease:'linear',delay:0.1}}className=" bg-[#202020] min-h-80 w-90 sm:min-w-2xl z-10 border border-gray-600 flex flex-col gap-4 shadow-lg shadow-gray-500 ">
                             
                             <div className="w-full bg-[#333333] flex  gap-2 p-2 border-b border-gray-100/30">
                                 
