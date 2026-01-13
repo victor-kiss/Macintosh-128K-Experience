@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🖥️ Macintosh 128K Experience
+Um portfólio imersivo e nostálgico desenvolvido para recriar a revolução de 1984 na web moderna. Uma fusão entre design retro, storytelling interativo e engenharia de software atual.
 
-## Getting Started
+🧩 Estrutura do Projeto
+📦 app/ ┣ 📂 actions/ → Server Actions para envio de e-mails (Resend)
 
-First, run the development server:
+┣ 📂 components/ ┃ ┣ 📂 navbar/ → Menu inspirado na interface clássica do Mac OS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+┃ ┣ 📂 hero/ → Apresentação 3D/Visual do Macintosh 128K
+
+┃ ┣ 📂 history/ → Seção de storytelling ("A Revolução")
+
+┃ ┣ 📂 specifications/ → Detalhes técnicos e hardware
+
+┃ ┗ 📂 contact/ → Formulário de contato funcional
+
+┣ 📂 emails/ ┃ ┗ 📜 contact-form.tsx → Template de e-mail estilizado (React Email)
+
+┣ 📂 data/ ┃ ┗ 📜 manifesto.ts → Textos e conteúdos textuais do site
+
+┣ 📜 layout.tsx → Layout principal e metadados
+
+┗ 📜 page.tsx → Página única (SPA) do portfólio
+
+🛠️ Personalização
+Transforme este template retro no seu próprio portfólio alterando:
+
+📜 Manifesto e Textos
+📁 app/data/manifesto.ts
+
+Edite os textos de "Revolução", "Liberdade" e "Inovação" para contar a sua história profissional.
+
+📧 Configuração de E-mail
+📁 app/actions/send-email.ts
+
+Configure suas chaves do Resend e defina para qual endereço as mensagens devem ser enviadas.
+
+🎨 Estilo Visual
+📁 tailwind.config.ts
+
+Ajuste a paleta de cores (Bege Retro, Preto e Branco) para adequar ao seu branding pessoal.
+
+🖼️ Assets Visuais
+📁 public/images/
+
+Substitua as imagens do computador clássico por seus próprios projetos ou mockups.
+
+💻 Como Rodar Localmente
+
+
+# Clone o repositório
+
+```
+git clone https://github.com/victor-kiss/Macintosh-128K-Experience.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Acesse a pasta
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd Macintosh-128K-Experience
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Instale as dependências
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+# Execute o projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O projeto estará disponível em:
 
-## Deploy on Vercel
+👉 http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌐 Deploy
+Para hospedar na Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bash
+
+```
+npm run build
+vercel --prod
+Exemplo de deploy:
+```
+
+🔗 https://macintosh-experience.vercel.app/
+
+🧡 Créditos
+Desenvolvido por Victor Kiss, unindo a estética inconfundível da Apple dos anos 80 com o poder do Next.js.
+
+"O Macintosh 128K não é apenas um computador; é o grito da liberdade. Pare de marchar na linha. Comece a criar o seu próprio caminho."
+
+💖 Feito com npm run dev e muita nostalgia 💖
