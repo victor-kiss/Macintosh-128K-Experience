@@ -2,19 +2,14 @@
 Um portfólio imersivo e nostálgico desenvolvido para recriar a revolução de 1984 na web moderna. Uma fusão entre design retro, storytelling interativo e engenharia de software atual.
 
 🧩 Estrutura do Projeto
-📦 app/ ┣ 📂 actions/ → Server Actions para envio de e-mails (Resend)
+📦 app/
 
 ┣ 📂 components/ ┃ ┣ 📂 navbar/ → Menu inspirado na interface clássica do Mac OS
 
-┃ ┣ 📂 hero/ → Apresentação 3D/Visual do Macintosh 128K
 
 ┃ ┣ 📂 history/ → Seção de storytelling ("A Revolução")
 
 ┃ ┣ 📂 specifications/ → Detalhes técnicos e hardware
-
-┃ ┗ 📂 contact/ → Formulário de contato funcional
-
-┣ 📂 emails/ ┃ ┗ 📜 contact-form.tsx → Template de e-mail estilizado (React Email)
 
 ┣ 📂 data/ ┃ ┗ 📜 manifesto.ts → Textos e conteúdos textuais do site
 
