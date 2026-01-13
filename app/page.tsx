@@ -316,7 +316,8 @@ export default function Home() {
                     </div>
 
                             {/*form */}
-                             <form className=" bg-[#202020] min-h-80 w-90 sm:min-w-2xl z-10 border border-gray-600 flex flex-col gap-4 shadow-lg shadow-gray-500 ">
+                             <motion.form initial={{ opacity: 0, y: -30 }}
+                            whileInView={{ opacity: 1, y: 0 }} className=" bg-[#202020] min-h-80 w-90 sm:min-w-2xl z-10 border border-gray-600 flex flex-col gap-4 shadow-lg shadow-gray-500 ">
                             
                             <div className="w-full bg-[#333333] flex  gap-2 p-2 border-b border-gray-100/30">
                                 
@@ -348,7 +349,7 @@ export default function Home() {
                                   <button value={'submit'} type="submit" className=" pr-1  font-retro text-gray-100 hover:cursor-pointer hover:scale-105">&#91;Enviar&#93;</button>
                             </div>
                             </div>
-                        </form>
+                        </motion.form>
                     </div>
             </div>
 
