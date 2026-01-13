@@ -88,7 +88,7 @@ export default function Home() {
                                     i % 2 == 0 ? (
                                         <span
                                             key={i}
-                                            className={`font-retro font-bold bg-clip-text text-transparent  bg-linear-to-b from-gray-100 to-gray-950 uppercase block text-[15vw]`}
+                                            className={`font-retro font-bold bg-clip-text text-transparent  bg-gradient-to-b from-gray-100 to-gray-950 uppercase block text-[15vw]`}
 
                                         >
                                             Macintosh
@@ -96,7 +96,7 @@ export default function Home() {
                                     ) : (
                                         <span
                                             key={i}
-                                            className={`font-retro font-bold text-transparent bg-clip-text  bg-linear-to-b from-green-100 to-green-600 uppercase  block text-[15vw]`}
+                                            className={`font-retro font-bold text-transparent bg-clip-text  bg-gradient-to-b from-green-100 to-green-600 uppercase  block text-[15vw]`}
 
                                         >
                                             Macintosh
