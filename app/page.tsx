@@ -148,17 +148,19 @@ export default function Home() {
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ duration: 0.6, delay: 0.1, type: 'tween' }}>
 
-                            <Image src={'/macintosh4.png'}
-                                width={800}
-                                height={800}
-                                alt="macintosh"
+<Image 
+    src={'/macintosh4.png'}
+    width={800}
+    height={800}
+    alt="macintosh"
+    
+    className="w-[110vw] max-w-none md:w-auto h-auto object-contain drop-shadow-xl drop-shadow-black"
 
-                                className="w-auto h-auto object-contain drop-shadow-xl drop-shadow-black"
+    sizes="(max-width: 768px) 150vw, (max-width: 1200px) 60vw, 800px"
 
-                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 800px"
-
-                                priority={true}
-                                quality={75} />
+    priority={true}
+    quality={90} 
+/>
                         </motion.div>
 
                     </div>
