@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import {  Geist_Mono,Silkscreen} from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 
 
@@ -33,7 +34,23 @@ export default function RootLayout({
         className={`${silkscreen.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <footer className="p-4 bg-neutral-950 w-full flex justify-center items-center ">
+        <span className="text-gray-200 text-center text-sm">
+          Desenvolvido por{" "}
+          <Link
+            href={"https://github.com/victor-kiss"} 
+            rel="noopener noreferrer"
+            target="_blank"
+            className="font-semibold text-beige hover:text-beige-dark transition duration-300"
+          >
+            Victor Kiss
+          </Link>
+          .
+        </span>
+      </footer>
       </body>
+
     </html>
   );
 }

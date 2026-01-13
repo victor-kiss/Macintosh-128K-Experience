@@ -195,7 +195,7 @@ export default function Home() {
                     <div className="flex flex-col items-center gap-6">
                         <motion.h2 initial={{ x: -500, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.6, type: 'tween' }} className=" text-4xl sm:text-6xl font-bold uppercase wrap-break-word text-center leading-normal">{spec}</motion.h2>
+                            transition={{ duration: 0.3, type: 'tween' }} className=" text-4xl sm:text-6xl font-bold uppercase wrap-break-word text-center leading-normal">{spec}</motion.h2>
 
                         {/*buttons for spec (hardware/ software) */}
                         <div className="flex flex-wrap gap-2">
