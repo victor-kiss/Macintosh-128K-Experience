@@ -87,15 +87,7 @@ cd Macintosh-128K-Experience
 npm install
 ```
 
-3.  (Opcional) Configure as variáveis de ambiente. Crie um `.env.local`:
-
-<!-- end list -->
-
-```env
-RESEND_API_KEY=sua_chave_api_aqui
-```
-
-4.  Execute o ambiente de desenvolvimento:
+3.  Execute o ambiente de desenvolvimento:
 
 <!-- end list -->
 
