@@ -2,7 +2,7 @@
 # 🖥️ Macintosh 128K Experience
 
 <div align="center">
-<img src="https://media.licdn.com/dms/image/v2/D4D2DAQG2ikUBmIfing/profile-treasury-image-shrink_480_480/B4DZu33TNTJ4AM-/0/1768316286679?e=1774620000&v=beta&t=DkhOSqjdRFHorxaIc6KRtazwds3Fo7-LjdpYHRpLYhY" alt="Banner do Projeto Macintosh 128K Experience" width="100%" max-width="600px">
+<img src="public/project_thumb.png" alt="Banner do Projeto Macintosh 128K Experience" width="100%" max-width="600px">
 
 **A convergência entre o brutalismo digital de 1984 e a engenharia front-end moderna.**
 
